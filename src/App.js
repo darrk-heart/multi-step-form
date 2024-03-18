@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Form1>
-        <Heading />
+        <Heading bg="#bde3ff" color="blue" border="#bde3ff" />
       </Form1>
     </div>
   );
