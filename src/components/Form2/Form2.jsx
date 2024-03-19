@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import styles from "./Form2.module.css";
 
-function Form2() {
+function Form2({ children }) {
   return (
-    <div>Form2</div>
-  )
+    <>
+      <div className={styles.background}>
+        {children}
+        <div>Hello WOrld</div>
+      </div>
+    </>
+  );
 }
 
-export default Form2
+export default Form2;

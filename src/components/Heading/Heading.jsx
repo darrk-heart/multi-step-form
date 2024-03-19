@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./Heading.module.css";
 import wallpaper from "../../assets/bg-sidebar-desktop.svg";
 
-function Heading({ color, bg, border }) {
+function Heading(props) {
+  const { color, bg, border } = props;
+
   return (
     <div className={styles.background}>
       <img src={wallpaper} alt="background side bar" />
