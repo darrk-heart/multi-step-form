@@ -1,13 +1,48 @@
 .background {
-    background-color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    height: 70%;
-    border-radius: 13px;
-    display: flex;
-    padding: 12px 12px 12px 2px;
-  }
-  
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70%;
+  border-radius: 13px;
+  display: flex;
+  padding: 12px 12px 12px 2px;
+}
+
+.form2bg {
+  margin-left: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.maintext {
+  margin: 25px 0 5px 0;
+}
+.maintext h1 {
+  margin-bottom: -10px;
+  font-size: 1.8rem;
+  color: #03295a;
+}
+.maintext p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #999999;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.nextstep {
+  width: 94%;
+  margin-top: 20%;
+  text-align: right;
+}
+.nextstep span {
+  background-color: #03295a;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
