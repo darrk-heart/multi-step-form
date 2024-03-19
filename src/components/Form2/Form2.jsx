@@ -35,6 +35,7 @@ function Form2({ children }) {
             <div>
               <span>Monthly</span>
               <button type="radio" />
+              <button type="radio" />
               <span>Yearly</span>
             </div>
           </div>
