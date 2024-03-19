@@ -10,7 +10,6 @@
   height: 100%;
   position: absolute;
 }
-
 .texts {
   display: flex;
   align-items: center;
@@ -23,10 +22,11 @@
   padding-left: 15px;
 }
 .texts_number {
-  padding: 2px 8px 4px 8px;
+  padding: 3px 8px 4px 8px;
   border-radius: 50%;
   border: 2px solid white;
   font-size: 0.7rem;
+  font-weight: 700;
 }
 .step {
   color: #bbbbbb;

@@ -62,7 +62,7 @@ function Heading(props) {
           style={{ borderColor: border4, backgroundColor: bg4, color: color4 }}
           className={styles.texts_number}
         >
-          1
+          4
         </span>
         <div>
           <span className={styles.step}>STEP 4</span>

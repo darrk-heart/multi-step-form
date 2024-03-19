@@ -30,16 +30,23 @@
   font-size: 0.9rem;
   color: #999999;
 }
-.inputs {
+.main {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 35%;
 }
-.nextstep {
+.selects {
+  display: flex;
+  justify-content: space-between;
+}
+.beneath {
   width: 94%;
   margin-top: 20%;
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
-.nextstep span {
+.nextstep {
   background-color: #03295a;
   color: white;
   padding: 10px 20px 10px 20px;
