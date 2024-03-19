@@ -10,3 +10,55 @@
   display: flex;
   padding: 12px 12px 12px 2px;
 }
+.form1bg {
+  margin-left: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.maintext {
+  margin: 25px 0 5px 0;
+}
+.maintext h1 {
+  margin-bottom: -10px;
+  font-size: 1.8rem;
+  color: #03295a;
+}
+.maintext p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #999999;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.inputs span {
+  font-size: 0.8rem;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  color: #03295a;
+  font-weight: 600;
+}
+.inputs input {
+  width: 90%;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #cccccc;
+}
+.inputs input::placeholder {
+  color: #999999;
+}
+.nextstep {
+  width: 94%;
+  margin-top: 20%;
+  text-align: right;
+}
+.nextstep span {
+  background-color: #03295a;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
