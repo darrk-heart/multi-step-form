@@ -35,7 +35,7 @@ function Form3({ children }) {
                 <h4>Larger storage</h4>
                 <p>Extra 1TB of cloud save</p>
               </div>
-              <p>+$1/mo</p>
+              <p>+$2/mo</p>
             </div>
             <div className={styles.selects}>
               <img

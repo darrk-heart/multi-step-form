@@ -31,7 +31,7 @@
 }
 .beneath {
   width: 100%;
-  margin-top: 34%;
+  margin-top: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,9 +54,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   border-radius: 10px;
   margin-bottom: 15px;
+  padding: 15px;
+}
+.selects p {
+  color: blue;
+  font-size: 0.7rem;
 }
 .selectText {
   width: 75%;
@@ -70,7 +75,7 @@
 .selectText p {
   color: #999999;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0;
-  margin: 0;
+  margin: 3px 0 0 0;
 }
