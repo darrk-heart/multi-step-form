@@ -23,7 +23,7 @@ function Form2({ children }) {
               </div>
               <div>
                 <img src={advance} alt="advance" />
-                <p>Advance</p>
+                <p>Advanced</p>
                 <span>$12/mo</span>
               </div>
               <div>

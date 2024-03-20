@@ -40,6 +40,23 @@
   display: flex;
   justify-content: space-between;
 }
+.selects div {
+  border: 1px solid #cccccc;
+  width: 20%;
+  padding: 10px;
+  border-radius: 7px;
+}
+.selects p {
+  margin-bottom: -2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #03295a;
+}
+.selects span {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #999999;
+}
 .beneath {
   width: 94%;
   margin-top: 20%;
