@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Form1.module.css";
+import Heading from "../Heading/Heading";
 
-function Form1({ children }) {
+function Form1() {
   return (
     <>
       <div className={styles.background}>
-        {children}
+        <Heading bg1="#bde3ff" color1="blue" border1="#bde3ff" />
         <div className={styles.form1bg}>
           <div className={styles.maintext}>
             <h1>Personal info</h1>

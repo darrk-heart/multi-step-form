@@ -3,8 +3,9 @@ import styles from "./Form2.module.css";
 import arcade from "../../assets/icon-arcade.svg";
 import advance from "../../assets/icon-advanced.svg";
 import pro from "../../assets/icon-pro.svg";
+import Heading from "../Heading/Heading";
 
-function Form2({ children }) {
+function Form2() {
   const [selectedOption, setSelectedOption] = useState("monthly");
 
   const handleOptionChange = (event) => {
@@ -14,7 +15,7 @@ function Form2({ children }) {
   return (
     <>
       <div className={styles.background}>
-        {children}
+        <Heading bg2="#bde3ff" color2="blue" border2="#bde3ff" />
         <div className={styles.form2bg}>
           <div className={styles.maintext}>
             <h1>Select your plan</h1>

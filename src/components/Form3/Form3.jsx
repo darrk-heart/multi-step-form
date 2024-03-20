@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Form3.module.css";
 import check from "../../assets/icon-checkmark.svg";
+import Heading from "../Heading/Heading";
 
-function Form3({ children }) {
+function Form3() {
   return (
     <>
       <div className={styles.background}>
-        {children}
+        <Heading bg3="#bde3ff" color3="blue" border3="#bde3ff" />
         <div className={styles.form3bg}>
           <div className={styles.maintext}>
             <h1>Pick add-ons</h1>
