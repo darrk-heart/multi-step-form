@@ -95,6 +95,7 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  border-radius: 10px;
 }
 .input span {
   color: #999999;
