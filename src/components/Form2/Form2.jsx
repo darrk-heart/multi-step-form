@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Form2.module.css";
 import arcade from "../../assets/icon-arcade.svg";
 import advance from "../../assets/icon-advanced.svg";
 import pro from "../../assets/icon-pro.svg";
 
 function Form2({ children }) {
+  const [selectedOption, setSelectedOption] = useState("monthly");
+
+  const handleOptionChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
   return (
     <>
       <div className={styles.background}>
@@ -19,29 +25,50 @@ function Form2({ children }) {
               <div>
                 <img src={arcade} alt="arcade" />
                 <p>Arcade</p>
-                <span>$9/mo</span>
+                <span>{selectedOption === "monthly" ? "$9/mo" : "$90/yr"}</span>
+                <h6>{selectedOption === "yearly" ? "2 months free" : ""}</h6>
               </div>
               <div>
                 <img src={advance} alt="advance" />
                 <p>Advanced</p>
-                <span>$12/mo</span>
+                <span>
+                  {selectedOption === "monthly" ? "$12/mo" : "$120/yr"}
+                </span>
+                <h6>{selectedOption === "yearly" ? "2 months free" : ""}</h6>
               </div>
               <div>
                 <img src={pro} alt="pro" />
                 <p>Pro</p>
-                <span>$15/mo</span>
+                <span>
+                  {selectedOption === "monthly" ? "$15/mo" : "$150/yr"}
+                </span>
+                <h6>{selectedOption === "yearly" ? "2 months free" : ""}</h6>
               </div>
             </div>
-            <div>
+            <div className={styles.input}>
               <span>Monthly</span>
-              <button type="radio" />
-              <button type="radio" />
+              <div>
+                <input
+                  type="radio"
+                  name="options"
+                  value="monthly"
+                  checked={selectedOption === "monthly"}
+                  onChange={handleOptionChange}
+                />
+                <input
+                  type="radio"
+                  name="options"
+                  value="yearly"
+                  checked={selectedOption === "yearly"}
+                  onChange={handleOptionChange}
+                />
+              </div>
               <span>Yearly</span>
             </div>
           </div>
           <div className={styles.beneath}>
-            <span>Go back</span>
-            <span className={styles.nextstep}>Next Step</span>
+            <span>Go Back</span>
+            <h6 className={styles.nextstep}>Next Step</h6>
           </div>
         </div>
       </div>
