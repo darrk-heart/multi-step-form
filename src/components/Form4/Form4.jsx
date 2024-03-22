@@ -13,7 +13,13 @@ function Form4() {
             <p>Double-check everything looks OK before confirming</p>
           </div>
           <div className={styles.main}>
-            <div>
+            <div
+              style={{
+                backgroundColor: "#eeeeee",
+                padding: "0 10px 20px 10px",
+                borderRadius: "10px",
+              }}
+            >
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <h5>Arcade (Monthly)</h5>
