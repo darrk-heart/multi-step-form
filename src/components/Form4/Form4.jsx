@@ -46,7 +46,7 @@ function Form4() {
                 }}
               >
                 <span>Total (per month)</span>
-                <h4>+$12/mo</h4>
+                <h4 style={{ color: "blue" }}>+$12/mo</h4>
               </div>
             </div>
           </div>
