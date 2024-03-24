@@ -52,7 +52,7 @@ function Form4() {
           </div>
           <div className={styles.beneath}>
             <span>Go Back</span>
-            <h6 className={styles.nextstep}>Next Step</h6>
+            <h6 className={styles.nextstep}>Confirm</h6>
           </div>
         </div>
       </div>
