@@ -10,7 +10,7 @@ As part of the projects i am doing to broaden my js and react skills, i picked t
 
 ## UI
 
-gonna come soon
+![image](./public//final.PNG)
 
 ## License
 
